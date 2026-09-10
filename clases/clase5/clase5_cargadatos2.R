@@ -2,8 +2,8 @@ library(here)
 library(readr)
 
 # 1. Definir la ruta del archivo con here
-archivo <- "cantidad_de_residuos_en_la_estacion_de_transferencia_2023.csv"
-ruta_csv <- here("clases", "clase4", archivo)
+archivo <- "rotulado_de_alimentos_2026.csv"
+ruta_csv <- here(archivo)
 
 # 2. Cargar el archivo CSV
 df <- read_csv(ruta_csv)
